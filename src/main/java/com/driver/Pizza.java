@@ -6,13 +6,13 @@ public class Pizza {
     private Boolean isVeg;
     private String bill  = "";
 
-    private Boolean isCheese = false;
+    public Boolean isCheese = false;
 
-    private Boolean isTopping = false;
+    public Boolean isTopping = false;
 
-    private Boolean isBag = false;
+    public Boolean isBag = false;
 
-    private Boolean isBill = false;
+    public Boolean isBill = false;
 
 
     public Pizza(Boolean isVeg){

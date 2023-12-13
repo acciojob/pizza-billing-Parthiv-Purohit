@@ -12,7 +12,7 @@ public class Pizza {
         if(isVeg)
         {
             this.price = 300;
-            bill = bill + "Base Price Of The Pizza: 300" + "/n";
+            bill = bill + "Base Price Of The Pizza: 300" + "\n";
         }
         else
         {

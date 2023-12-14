@@ -77,7 +77,7 @@ public class Pizza {
 
         }
         else {
-            return "";
+            return this.bill;
         }
     }
 }

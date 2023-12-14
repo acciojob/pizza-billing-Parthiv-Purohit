@@ -6,10 +6,10 @@ public class DeluxePizza extends Pizza {
         super(isVeg);
         // your code goes here
         addExtraCheese();
-        this.isCheese = false;
+//        this.isCheese = false;
         addExtraToppings();
-        this.isTopping = false;
-        //addTakeaway();
-       // getBill();
+//        this.isTopping = false;
+        addTakeaway();
+       getBill();
     }
 }

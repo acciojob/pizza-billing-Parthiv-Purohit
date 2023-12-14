@@ -72,7 +72,7 @@ public class Pizza {
         // your code goes here
         if(!isBill) {
             bill = bill + "Total Price: " + this.price + "\n";
-            //this.isBill = true;
+            this.isBill = true;
             return this.bill;
 
         }

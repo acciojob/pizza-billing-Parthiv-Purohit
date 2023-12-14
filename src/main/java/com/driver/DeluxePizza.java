@@ -9,7 +9,7 @@ public class DeluxePizza extends Pizza {
 //        this.isCheese = false;
         addExtraToppings();
 //        this.isTopping = false;
-        addTakeaway();
+        //addTakeaway();
        getBill();
     }
 }

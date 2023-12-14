@@ -53,7 +53,7 @@ public class Pizza {
                 bill = bill + "Extra Toppings Added: 70" + "\n";
             } else {
                 this.price = this.price + 120;
-                bill = bill + "Toppings Added: 120" + "\n";
+                bill = bill + "Extra Toppings Added: 120" + "\n";
             }
             isTopping = true;
         }
